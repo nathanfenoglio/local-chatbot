@@ -18,7 +18,7 @@ Locally run LLM chatbot for company employees to be able to query their personal
 
 # Project Overview
 #### Google apps script
-- running in google cloud and listening for any changes to the user's folders
+- running in google cloud and listening for any changes to the users folders
 - if change to a folder is detected (file modified, deleted, or added) a post request is sent to the backend web url with the folder id of the folder that a change was detected in to trigger the backend server.js script to run and redownload files from google drive and reseed user's Astra DB collection
 
 #### backend
